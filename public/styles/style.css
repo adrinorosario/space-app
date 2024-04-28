@@ -1,0 +1,22 @@
+:root {
+--bg-img: url("assets/stars-back.jpeg");
+--apod-bg: url("assets/stars-back.jpeg")
+}
+
+body {
+    background-image: var(--bg-img);
+    background-size: cover;
+}
+
+
+#main-form {
+    width:50%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.submit {
+    width: 100%;
+}
+
+

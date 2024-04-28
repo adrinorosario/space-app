@@ -1,0 +1,28 @@
+{
+  "name": "space-app",
+  "version": "1.0.0",
+  "description": "A website to track near earth objects in space and view mars atmospheric data",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrinorosario/space-app.git"
+  },
+  "author": "Adrino Rosario james",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrinorosario/space-app/issues"
+  },
+  "homepage": "https://github.com/adrinorosario/space-app#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
